@@ -1,0 +1,72 @@
+/* https://piccalil.li/blog/a-modern-css-reset
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h2,
+p {
+  margin: 0;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  color: hsl(216, 15%, 48%);
+  font-size: 1.12rem;
+  font-weight: 400;
+}
+
+h2 {
+  color: hsl(218, 44%, 22%);
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.grid-flow{
+  display: grid;
+  grid-gap: 1rem;
+}
+
+body {
+  display:grid;
+  align-content: center;
+}
+
+.card {
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+  width: 20rem;
+  height: 32rem;
+  margin: 0 auto;
+  padding: 1.2rem;
+  border-radius: 2rem;
+}
+
+
+.img {
+  border-radius: 1rem;
+  margin: 0 0 1rem 0;
+}
